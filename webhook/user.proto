@@ -3,7 +3,7 @@ syntax = "proto3";
 package vcs;
 
 message User {
-    int32 id = 1;
+    int64 id = 1;
     string login = 2;
     string url = 5;
     string type = 21;

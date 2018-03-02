@@ -5,7 +5,7 @@ package vcs;
 import "user.proto";
 
 message Repository {
-    int32 id = 1;
+    int64 id = 1;
     User owner = 2;
     string name = 3;
     string full_name = 4;
