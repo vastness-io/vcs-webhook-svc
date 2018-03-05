@@ -32,4 +32,11 @@ message VcsPushEvent {
     CommitAuthor pusher = 12;
     User sender = 13;
     User organization = 15;
+    VcsType vcs_type = 16;
+}
+
+enum VcsType {
+    UNKNOWN = 0;
+    BITBUCKET_SERVER = 1;
+    GITHUB = 2;
 }
